@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+      <report
+              id="report_my_assets"
+              string="My Assets"
+              model="my.assets"
+              report_type="qweb-pdf"
+              name="base.report_my_assets"
+              file="base.report_my_assets"
+      />
+</odoo>
